@@ -1,0 +1,15 @@
+使用django写的blog
+
+配置：django 1.10.3
+
+
+步骤：django-admin startproject django_blog
+      python manage.py startapp blog
+      python manage.py migrate
+
+      python manage.py makemigrations blog
+      python manage.py migrate
+
+
+      创建超级用户
+      python manage.py createsupperuser
